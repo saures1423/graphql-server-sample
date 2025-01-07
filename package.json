@@ -1,0 +1,25 @@
+{
+	"name": "graphql-server-example",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc",
+		"start": "npm run compile && node ./dist/index.js",
+		"start-dev": "nodemon --watch *.ts --exec ts-node ./src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"description": "",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"@apollo/server": "^4.11.2",
+		"graphql": "^16.9.0"
+	}
+}

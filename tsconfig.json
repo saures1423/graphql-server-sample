@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"rootDirs": ["src"],
+		"outDir": "dist",
+		"lib": ["es2020"],
+		"target": "es2020",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"types": ["node"],
+
+		"strict": true /* Enable all strict type-checking options. */,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"noImplicitReturns": true
+	},
+
+	"include": ["./src/**/*.ts", "eslint.config.mjs", "./src/assets/**/*"],
+	"exclude": ["node_modules", "dist"]
+}
